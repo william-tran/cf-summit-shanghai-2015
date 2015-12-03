@@ -12,7 +12,7 @@ http://www.slideshare.net/WillTran1/enabling-cloud-native-security-with-oauth2-a
 sudo sh -c 'echo "127.0.0.1 myzone.localhost" >> /etc/hosts'
    ```
 
-1. Make sure nothing is running on port 8080, the start up UAA with the Maven Cargo plugin
+1. Make sure nothing is running on port 8080, then start up UAA with the Maven Cargo plugin
 
    ```
 cd uaa
