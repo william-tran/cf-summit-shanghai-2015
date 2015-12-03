@@ -1,0 +1,11 @@
+server.port: 8081
+
+security:
+  oauth2:
+    client:
+      clientId: sales-app
+      clientSecret: secret
+      accessTokenUri: http://myzone.localhost:8080/uaa/oauth/token
+      userAuthorizationUri: http://myzone.localhost:8080/uaa/oauth/authorize
+    resource:
+      jwt.keyUri: http://myzone.localhost:8080/uaa/token_key
