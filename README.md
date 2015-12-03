@@ -1,9 +1,11 @@
 # Enabling Cloud Native Security with Multi-Tenant UAA 
 
 
-Slides: http://www.slideshare.net/WillTran1/enabling-cloud-native-security-with-oauth2-and-multitenant-uaa
+## Slides: 
+http://www.slideshare.net/WillTran1/enabling-cloud-native-security-with-oauth2-and-multitenant-uaa
 
-Demo:
+## Demo:
+
 1. Add myzone.localhost to your hosts file
   
    ```
@@ -17,7 +19,7 @@ cd uaa
 mvn cargo:run
    ```
 
-1. In a new shell, create the new Identity Zone, clients and users
+1. In a new shell in the /uaa subfolder, create the new Identity Zone, clients and users
 
    ```
 . create-zone.sh
