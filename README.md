@@ -19,7 +19,7 @@ cd uaa
 mvn cargo:run
    ```
 
-1. In a new shell in the /uaa subfolder, create the new Identity Zone, clients and users
+1. In a new shell in the /uaa subfolder, create the new Identity Zone, clients and users. Login with u:marissa p:koala when prompted in the browser.
 
    ```
 . create-zone.sh
